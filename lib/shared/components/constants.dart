@@ -1,0 +1,47 @@
+import 'package:flutter/material.dart';
+
+const Color welcomeButtomColor = Color(0xFF005e7f);
+const Color loginBackgroundColor = Color(0xFF005e7f);
+const Color signUpBackgroundColor = Color(0xFF005e7f);
+const Color buttonColor = Color(0xFFff6fa9);
+const Color textFormFieldBackground = Color(0xFFF2F2F2);
+const kBackgroundColor = Color(0xFFF1EFF1);
+const kPrimaryColor = Color(0xFF219ebc);
+const kSecondaryColor = Color(0xFFfcca46);
+const kTextColor = Color(0xFF023047);
+const kTextLightColor = Color(0xFF747474);
+const kBlueColor = Color(0xFF40BAD5);
+const double kPadding = 20.0;
+const double kPadding2 = 30.0;
+const Color kToastErrorColor = Colors.red;
+const Color kselectedItemColorButtonNavigationBar = Colors.amber;
+const Color trainersListBackgroundColor = Color(0xFF005e7f);
+const String kSignUpTitle = "SignUp Screen";
+const String kloginTitle = "Login Screen";
+const String kWelcomeTrainerTextButton = "Trainer";
+const String kWelcomeTraineeTextButton = "Trainee";
+// Form Error
+const String kNameNullError = "Please Enter your name";
+const String kNameisVeryShort = "Enter at least 4 characters ";
+const pattern = r'(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)';
+final regExp = RegExp(pattern);
+const String kEmailNullError = "Please Enter your email";
+const String kInvalidEmailError = "Please Enter Valid Email";
+const String kPassNullError = "Please Enter your password";
+const String kShortPassError = "Password is too short";
+const String kEmailNotFound = "No User Found for that Email";
+const String kEmailNotFoundtrainee = "This Email is not Found in trainees";
+const String kEmailNotFoundtrainer = "This Email is not Found in trainers";
+const String kPasswordNotProvidedforthatEmail =
+    "Wrong Password Provided for that Email.";
+const String kPhoneNumberNullError = "Please Enter your phone number";
+const String kPhoneLengthError = "PhoneNo must be 10 Nos";
+const phoneNoPatter = r'^0+';
+final phoneRegExp = RegExp(phoneNoPatter);
+const String kEmailExisted = "This Email has been Existed";
+const String kTrainerCollection = 'Trainers';
+const String kTraineeCollection = 'Trainees';
+const String kRequestsCollection = 'Requests';
+const String kLocationNullError = "Please Enter Location";
+const String kPriceNullError = "Please Enter Price";
+const String kRequstsCollection = 'Requests';
